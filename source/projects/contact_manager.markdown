@@ -190,7 +190,7 @@ group :production do
 end
 ```
 
-Run the `bundle install` command again to update your database dependencies.
+Run the `bundle install --without production` command again to update your database dependencies.
 
 Commit your code again.
 
